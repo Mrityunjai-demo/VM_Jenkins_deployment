@@ -1,7 +1,7 @@
 
 resource "google_compute_instance" "jenkins" {
   name         = "jenkins-finaldemo-poc-vm"
-  machine_type = "e2-medium"
+  machine_type = ""e2-standard-2"
   zone         = "us-central1-a"
      
 
