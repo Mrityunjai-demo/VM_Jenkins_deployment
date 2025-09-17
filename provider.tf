@@ -16,8 +16,8 @@
     }
   }
   required_version = ">= 1.3"
-  backend "gcs" {
-    bucket  = "my-terraform-state-bucket"   
-    prefix  = "terraform/state"            
-}
+ # backend "gcs" {
+#    bucket  = "my-terraform-state-bucket"   
+#    prefix  = "terraform/state"            
+# }
   }
