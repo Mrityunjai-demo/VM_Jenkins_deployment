@@ -33,8 +33,3 @@ variable "subnet_vm_address" {
   type        = string
 }
 
-variable "region" {
-  description = "GCP region where subnet will be created"
-  type        = string
-  default     = "us-central1"
-}
