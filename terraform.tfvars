@@ -1,5 +1,5 @@
 application_name   = "myapp"
 application_env    = "dev"
-vn_address         = "10.0.0.0/16"
-subnet_vm_address  = "10.0.1.0/24"
+vn_address         = "10.0.0.0/26"
+subnet_vm_address  = "10.0.1.0/28"
 region             = "us-central1"
